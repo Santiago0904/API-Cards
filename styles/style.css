@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #272b33;
+    height: 100vh;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 700px;
+    margin-top: 100px;
+    height: auto;
+    background-color: #3c3e44;
+    color: white;
+    margin-left: 200px;
+}
+
+.card img{
+    width: 30rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.character{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: white;
+}
